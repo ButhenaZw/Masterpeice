@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+.custom-header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-header .logo a {
+    text-decoration: none;
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.custom-nav {
+    background: orange;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section (Background Image Slider) */
+.hero-slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 25s infinite;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Background Image Animation */
+@keyframes slideShow {
+    0% { background-image: url('https://wallpapercat.com/w/full/3/0/4/1698338-3440x1440-desktop-dual-screen-dodge-charger-wallpaper-photo.jpg'); }
+    20% { background-image: url('https://www.wsupercars.com/thumbnails-wide/Dodge/2020-Dodge-Charger-SRT-Hellcat-Widebody-002.jpg'); }
+    40% { background-image: url('https://i.pinimg.com/736x/a8/4d/dd/a84ddd3638b5d19283e3a84fed11a0ad.jpg'); }
+    60% { background-image: url('https://w0.peakpx.com/wallpaper/768/232/HD-wallpaper-2020-dodge-charger-srt-hellcat-widebody-headlight-car.jpg'); }
+    80% { background-image: url('https://wallpaper.forfun.com/fetch/df/df609b2352e28cb9191f47b2a69547ab.jpeg'); }
+    100% { background-image: url('https://c4.wallpaperflare.com/wallpaper/444/62/551/dodge-charger-srt-car-dodge-charger-hellcat-wallpaper-preview.jpg'); }
+}
+
+/* About Content */
+.about-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.about-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background: orange;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-box.reverse {
+    flex-direction: row-reverse;
+}
+
+.about-box img {
+    width: 50%;
+    height: auto;
+}
+
+.text {
+    padding: 20px;
+    color: white;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.custom-footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: orange;
+    text-decoration: none;
+}

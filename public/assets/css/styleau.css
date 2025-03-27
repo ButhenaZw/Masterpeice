@@ -1,0 +1,229 @@
+
+  @font-face {
+    font-family: 'Ford Script';
+    src: url('Fordscript.woff2') format('woff2'),
+        url('Fordscript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.hero-p-about{
+	width: 300px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+  /* Apply Font to Whole Section */
+  .custom-card {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Unique Icon Styling */
+  .custom-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .mission-card .custom-icon {
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+
+  .vision-card .custom-icon {
+    color: #28a745;
+    border: 2px solid #28a745;
+  }
+
+  .value-card .custom-icon {
+    color: #ffc107;
+    border: 2px solid #ffc107;
+  }
+
+  .custom-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .custom-text {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400; 
+    line-height: 1.6; 
+  }
+
+.hero-container-about {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+
+}
+
+.hero-heading-about {
+    font-size: 100px;
+    font-family: 'BOONE Regular', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+	margin-top: 200px;
+}
+
+.hero-description-about {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0;
+	margin-bottom: 200px;
+
+}
+
+
+  
+  .parallax-aboutus {
+	position: relative;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.107)), url("https://www.hdcarwallpapers.com/download/dodge_challenger_srt_hellcat_redeye_widebody_jailbreak_2022_4k_8k_3-2560x1440.jpg") center center;
+		background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	padding: 20px;
+  }
+  
+.nav-style {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 10;
+	background-color: transparent;
+	color: rgb(255, 255, 255); 
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	padding: 10px 0;
+  }
+  
+  @font-face {
+    font-family: 'BOONE Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BOONE Regular'), url('BOONE.woff') format('woff');
+    }
+  
+  .nav-links a {
+	font-family: 'Ford Light Extended', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	padding: 10px 10px;
+	position: relative;
+	top: 15px;
+  }
+  
+  .brand-name a {
+	font-family: 'Ford Script', sans-serif;
+	font-size: 36px;
+	position: relative;
+	right: 40px;
+	text-decoration: none;
+  
+	color: #ffffff; 
+	transition: color 0.3s ease;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Add spacing between the icons */
+  }
+  
+  .nav-icons i {
+    font-size: 1.5rem; /* Adjust icon size as needed */
+    cursor: pointer;
+  }
+  .nav-icons a {
+    font-size: 1.5rem;
+    font-family: 'Ford Light Extended', sans-serif;
+color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .nav-icons .login-link {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Ford Light Extended', sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  .nav-style.scrolled {
+	background-color: white; 
+	color: #333;
+  }
+  
+  .nav-style.scrolled a,
+  .nav-style.scrolled i {
+	color: rgb(0, 0, 0); 
+  }
+  
+  .nav-links a:hover,
+  .brand-name a:hover,
+  .nav-icons a:hover,
+  .nav-icons i:hover {
+	color: rgb(255, 248, 215); 
+  cursor: pointer;
+  }
+	.nav-icons .dropdown {
+    position: relative;
+  }
+  
+  .nav-icons .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    display: none;
+    z-index: 1000;
+  }
+  
+  .nav-icons .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .nav-icons .dropdown-item {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-icons .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  

@@ -1,0 +1,38 @@
+
+.parallax-contactus {
+	position: relative;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.107)), url("https://images3.alphacoders.com/120/1208063.jpg") center center;
+		background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	padding: 20px;
+  }
+  .hero-heading-h2{
+    font-size: 30px;
+  }
+  .contact-card {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact-card i {
+    font-size: 40px;
+    color: #203c0c;
+    margin-bottom: 10px;
+  }
+
+  .contact-card h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .contact-card p {
+    font-size: 16px;
+    color: #555;
+  }
